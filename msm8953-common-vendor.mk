@@ -692,7 +692,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
-    datastatusnotification \
     embms \
     dpmserviceapp \
     ims \
