@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imscamera.so \
+	vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfmjni.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
@@ -657,6 +658,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
+	PrebuiltFMRadio \
     embms \
     dpmserviceapp \
     ims \
