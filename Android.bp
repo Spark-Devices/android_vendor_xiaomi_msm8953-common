@@ -175,7 +175,7 @@ android_app_import {
 android_app_import {
         name: "datastatusnotification",
         owner: "xiaomi",
-        apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
+        apk: "proprietary/system_ext/app/datastatusnotification.apk",
 	certificate: "platform",
         dex_preopt: {
 		enabled: false,
